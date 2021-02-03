@@ -1,0 +1,25 @@
+body{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.main{
+    text-align: center;
+    margin-top: 100px;
+}
+.num{
+    display: inline-block;
+    width: 100px;
+    border: 1px solid brown;
+    border-radius: 10px;
+    background-color:lightcyan;
+    color: sienna;
+    
+}
+.btn{
+    margin-top: 10px;
+    border-radius: 5pxpx;
+}
+/* .h2{
+    
+    color: sienna;
+} */

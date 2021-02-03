@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop watch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+</head>
+<body>
+    <div class="main">
+        <h2 style="color: sienna;"><b>Stop watch...</b></h2>
+        <div class="num">
+            <h1 id="min">0</h1>
+            <h1 id="sec">0</h1>
+            <h1 id="mili">0</h1>
+        </div>
+        <div class="btn">
+            <button id="start" onclick="start()" type="button" class="btn btn-secondary">Start</button>
+            <button onclick=" pause()" type="button" class="btn btn-danger">Pause</button>
+            <button onclick="reset()" type="button" class="btn btn-primary">Reset</button>
+        </div>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
